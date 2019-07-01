@@ -1,0 +1,110 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fontawesome.com/');
+body{
+     margin-right: 10;
+     padding: 0;
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 234, 0.726);
+    box-shadow: 2 14px 8px 2 rgba(0,0,0,0.2);
+}
+p  {
+    Font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+h2{
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+h3{
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+.header img {
+    float: left;
+}
+.header button {
+    float: right;
+    float: clear;
+    
+}
+main {
+    background: url(bg-hero-desktop.svg);
+    margin: 2% 2%;
+}
+.main img{
+    float: right;
+    float: clear;
+}
+.grow  {
+    box-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 2% 5%;
+    /* width: 80%; */
+}
+.growone{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%; 
+}
+.grow img{
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+    height: auto;
+}
+.float{
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 2% 5%;
+}
+.float img {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    height: auto;
+    
+}
+.floatone{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 5%; 
+}
+.users{
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+    margin: 2% 5%;
+}
+.users img{
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+    height: auto;
+}
+.usersone{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%; 
+}
+.build{
+    float: center;
+    margin-right: 30%;
+    width: 50%;
+    margin: 2%;
+}
+.responsive{
+    width: 40%;
+    height: auto;
+}
+.bottom{
+    color: aliceblue;
+    background-color: black;
+}
