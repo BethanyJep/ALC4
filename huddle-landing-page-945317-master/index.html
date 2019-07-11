@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,25 +17,27 @@
 </head>
 <body>
   <br><br>
-  <header class="header w3-cell-row ">
-    <img src="images/logo.svg" alt="">
-      <button >Try It Free</button>
-  </header>
+  <div class="head">
+      <header class="header grid ">
+          <img src="images/logo.svg" alt="">
+            <button >Try It Free</button>
+        </header>
+        <br>
+        <br>
+        <main class="main" >
+            <div >
+                <img src="images/illustration-mockups.svg" alt="" class="responsive">
+            </div>
+          <div>
+            <h2>Build The Community Your Fans Will Love</h2>
+            <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+              Create connections with your users as you engage in genuine discussion. </p>
+            <button>Get Started For Free</button>
+          </div>
+        </main>
+  </div>
   <br>
-  <br>
-  <main class="main">
-      <div >
-          <img src="images/illustration-mockups.svg" alt="" class="responsive">
-      </div>
-    <div>
-      <h2>Build The Community Your Fans Will Love</h2>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. </p>
-      <button>Get Started For Free</button>
-    </div>
-  </main>
-  <br>
-  <div class="grow w3-cell-row w3-card ">
+  <div class="grow grid w3-card ">
     <div class="growone">
         <h3>Grow Together</h3>
         <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
@@ -43,7 +45,7 @@
     </div>
     <img src="images/illustration-grow-together.svg" alt="" class="responsive">
   </div>
-  <div class="float w3-cell-row w3-card ">
+  <div class="float grid w3-card ">
     <div class="floatone">
         <h3>Flowing Conversations</h3>
         <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
@@ -51,7 +53,7 @@
     </div>
     <img src="images/illustration-flowing-conversation.svg" alt="" class="responsive">
   </div>
-  <div class="users w3-cell-row w3-card ">
+  <div class="users grid w3-card ">
       <img src="images/illustration-your-users.svg" alt="" class="responsive">
     <div class="usersone">
         <h3>Your Users</h3>
@@ -59,43 +61,54 @@
           This means, once signed in to your app, your users can start chatting immediately.</p>
     </div>
   </div>
-  <div class="build w3-cell-row w3-card ">
+  <div class="build grid1 w3-card ">
     <h2>Ready To Build Your Community?</h2>
     <button>Get Started For Free</button>
   </div>  
   <div class="bottom">
-    <div >
-      <img src="images/logo.svg" alt="">
-      br
-      <img src="images/icon-location.svg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua</p>
-      <br>
-      <img src="images/icon-phone.svg" alt="">
-      <p>+1-543-123-4567</p>
-      <br>
-      <img src="images/icon-email.svg" alt="">
-      <p>example@huddle.com</p>
+    <div class="bottom-content">
+       <img src="images/logo.svg" alt="">
+        <div class="gridcol">
+            <div class="gridrow" >
+              <br>
+              <img src="images/icon-location.svg" alt="">
+              <br>
+              <br>
+              <img src="images/icon-phone.svg" alt="">
+              <br>
+              <br>
+              <img src="images/icon-email.svg" alt="">
+            </div>
+            <div class="gridrow">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua</p>
+                <p>+1-543-123-4567</p>
+                <p>example@huddle.com</p>
+            </div>
+            <div class="gridrow">
+              <p>About Us</p>
+              <p>What We Do</p>
+              <p>FAQ</p>
+            </div>
+            <div class="gridrow">
+              <p>Career</p>
+              <p>Blog</p>
+              <p>Contact Us</p>
+            </div>
+            <div>
+                <i class="fa fa-facebook-square" style="font-size:36px"></i>
+                <i class="fa fa-instagram" style="font-size:36px"></i>
+                <i class="fa fa-twitter-square" style="font-size:36px"></i>
+            </div>
+        </div>
     </div>
-    <div>
-      <p>About Us</p>
-      <p>What We Do</p>
-      <p>FAQ</p>
-    </div>
-    <div>
-      <p>Career</p>
-      <p>Blog</p>
-      <p>Contact Us</p>
-    </div>
-    <div>
-      <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
-    </div>
+    <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://twitter.com/InnCreator">InnCreator</a>.
+        </p>
+      </footer>
   </div>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://twitter.com/InnCreator">InnCreator</a>.
-    </p>
-  </footer>
+
 </body>
 </html>
