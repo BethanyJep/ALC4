@@ -31,3 +31,10 @@ while (character.length <= timesToRepeat) {
     character += 'a';
 }
 console.log(character);
+
+function greet(firstName, lastName, honour, greeting) {
+    return `${greeting} ${honour} ${lastName}! I am extremely happy that you would be amongst us, ${firstName}. It is a pleasure to have you, ${honour} ${lastName}.`;
+}
+
+console.log(greet('Sarah', 'Holt', 'Miss', 'Praise God'));
+console.log(greet('Psy', 'Duck', 'Tiny', 'Pika Pika'));

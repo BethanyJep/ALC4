@@ -5,3 +5,4 @@ for (let i = 0; i < timesToRepeat; i++){
     character += 'a'
 }
 console.log(character)
+
