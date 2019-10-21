@@ -4,13 +4,20 @@ Class Book {
         pages = Number,
         description = String,
         currentPage = 1,
-        read = Boolean) {
+        read = Boolean); {
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+        this.description = description;
         this.currentPage = currentPage;
-    }
+        this.read = read;
+    };
     readBook(){
-        if (currentPage < numPages) {
+        if () {
+            
+        }
+        else {
             currentPage++;
         }
-           
     }
 }
