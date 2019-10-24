@@ -12,12 +12,18 @@ Class Book; {
         this.currentPage = currentPage;
         this.read = read;
     };
-    readBook(currentPage){
-        if (currentPage != int) {
-            
-        }
-        else {
-            currentPage++;
-        }
+        readBook(pageNumber){
+      if(pageNumber === this.pages){
+        this.currentPage = pageNumber;
+        this.read = true;
+      }
+      else if(pageNumber > 0 && pageNumber < this.pages){
+        this.currentPage = pageNumber;
+      }
+      else{
+        this.warning = "Wrong Input";
+        return (this.warning);
+      }
     }
 }
+ export { Book };
