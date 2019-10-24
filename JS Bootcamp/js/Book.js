@@ -1,4 +1,4 @@
-Class Book {
+Class Book; {
     constructor(title = String,
         author = String,
         pages = Number,
@@ -12,8 +12,8 @@ Class Book {
         this.currentPage = currentPage;
         this.read = read;
     };
-    readBook(){
-        if () {
+    readBook(currentPage){
+        if (currentPage != int) {
             
         }
         else {
