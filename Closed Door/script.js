@@ -46,30 +46,30 @@ const randomChoreDoorGenerator = () => {
     }
     else if (choreDoor === 1) {
         openDoor2 = botDoorPath;
-        openDoor1 = spaceDoorPath;
-        openDoor3 = beachDoorPath;
+        openDoor3 = spaceDoorPath;
+        openDoor1 = beachDoorPath;
     }
     else if (choreDoor === 2) {
         openDoor3 = botDoorPath;
-        openDoor2 = spaceDoorPath;
-        openDoor1 = beachDoorPath;
+        openDoor1 = spaceDoorPath;
+        openDoor2 = beachDoorPath;
     }
 }
-doorImage1.onclick = () => {
+door1.onclick = () => {
     if (currentlyPlaying && !isClicked(doorImage1)) {
         doorImage1.src = openDoor1;
     }
     playDoor(door1);
 }
-doorImage2.onclick = () => {
+door2.onclick = () => {
     if (currentlyPlaying && !isClicked(doorImage2)) {
-        doorImage1.src = openDoor2;
+        doorImage2.src = openDoor2;
     }
     playDoor(door2);
 }
-doorImage3.onclick = () => {
+door3.onclick = () => {
     if (currentlyPlaying && !isClicked(doorImage3)) {
-        doorImage1.src = openDoor3;
+        doorImage3.src = openDoor3;
     }
     playDoor(door3);
     }
@@ -84,7 +84,7 @@ doorImage3.onclick = () => {
 }
     startButton.onclick = () => {
          if (!currentlyPlaying) {
-             startsRound();
+             startRound();
         }
 }
     const gameOver = (status) => {
