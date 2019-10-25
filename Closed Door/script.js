@@ -79,7 +79,7 @@ door3.onclick = () => {
         doorImage3.src = closedDoorPath;
         numClosedDoors = 3;
         startButton.innerHTML = 'Good Luck!'
-        currentlyPlayin = true;
+        currentlyPlaying = true;
         randomChoreDoorGenerator();
 }
     startButton.onclick = () => {
@@ -89,10 +89,10 @@ door3.onclick = () => {
 }
     const gameOver = (status) => {
         if (status === 'win') {
-            startButton.innerHTML = 'You win! Play Again?'
+            startButton.innerHTML = 'You win!'
         }
         else {
-            startButton.innerHTML = 'Game Over! Play Again?'
+          startButton.innerHTML = 'Game Over! '
         }
         currentlyPlaying = false;
 }
